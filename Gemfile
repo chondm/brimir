@@ -20,7 +20,7 @@ group :development do
   gem 'byebug'
 
   # sqlite database during development
-  gem 'sqlite3'
+ 
 
   # deploy with Capistrano
   gem 'capistrano'
@@ -38,13 +38,11 @@ group :test do
   # for coveralls
   gem 'coveralls'
 
-  gem 'mysql2'
+  
 end
 
-group :production do
-  # PostgreSQL for production
-  gem 'pg'
-end
+gem 'mysql2'
+
 
 # authentication
 gem 'devise'
