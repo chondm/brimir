@@ -25,5 +25,5 @@ production:
   reconnect: false
   database: br_production
   pool: 5
-  username:
-  password:
+  username: root
+  password: qeHGIFxsTH

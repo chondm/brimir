@@ -11,7 +11,7 @@ gem 'compass-rails', '~> 1.1.2'
 gem 'foundation-rails', '~> 5.2.2'
 
 gem 'jquery-rails'
-
+gem 'capistrano'
 # foundation form errors
 gem 'foundation_rails_helper'
 

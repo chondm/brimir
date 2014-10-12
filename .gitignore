@@ -20,15 +20,15 @@ app/assets/stylesheets/scaffolds.css.scss
 # temp files
 *.swp
 .DS_Store
-
+nbproject
 # uploads
 public/system
 data
 
 # Capistrano deploy details
-config/deploy
-config/deploy.rb
-Capfile
+#config/deploy
+#config/deploy.rb
+#Capfile
 
 # rcov files
 coverage
