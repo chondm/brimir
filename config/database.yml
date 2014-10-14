@@ -19,11 +19,11 @@
 #  username: <%= ENV['DB_USERNAME'] || 'root' %>
 #  password: <%= ENV['DB_PASSWORD'] || '' %>
 
-#production:
-#  adapter: postgresql
-#  database: signthis_development
-#  host: 172.17.42.1
-#  pool: 5
-#  port: 49157
-#  username: 'root'
-#  password: 'LKedni5D2mFCTsuy'
+production:
+  adapter: postgresql
+  database: signthis_development
+  host: 172.17.42.1
+  pool: 5
+  port: 49157
+  username: root
+  password: KjzMap3hMwOdJ3zW
