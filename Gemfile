@@ -41,7 +41,7 @@ group :test do
   
 end
 
-gem 'mysql2'
+gem 'pg'
 
 
 # authentication
