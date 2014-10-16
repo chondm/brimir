@@ -1,10 +1,10 @@
 set :application, 'brimir'
 set :repo_url, 'git@github.com:chondm/brimir.git'
 
-set :deploy_to, '/home/deploy/brimir'
+set :deploy_to, '/home/deployer'
 
-set :linked_files, %w{config/database.yml}
-set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+#set :linked_files, %w{config/database.yml}
+#set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 namespace :deploy do
 
@@ -12,6 +12,7 @@ namespace :deploy do
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
       execute :touch, release_path.join('tmp/restart.txt')
+      #execute "mkdir #{deploy_to}/current/tmp; touch #{deploy_to}/tmp/restart.txt"
     end
   end
 

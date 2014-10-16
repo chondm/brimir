@@ -24,7 +24,7 @@ group :development do
 
   # deploy with Capistrano
   gem 'capistrano'
-  gem 'capistrano-rvm'
+  gem 'capistrano-rbenv', github: "capistrano/rbenv"
   gem 'capistrano-rails'
 
   # Spring application pre-loader
