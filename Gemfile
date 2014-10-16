@@ -23,14 +23,16 @@ group :development do
  
 
   # deploy with Capistrano
-  gem 'capistrano'
-  gem 'capistrano-rbenv', github: "capistrano/rbenv"
-  gem 'capistrano-rails'
-
+#  gem 'capistrano'
+#  gem 'capistrano-rbenv', github: "capistrano/rbenv"
+#  gem 'capistrano-rails'
+gem 'mina'
+gem 'mina-unicorn', :require => false
   # Spring application pre-loader
   gem 'spring'
 end
 
+gem 'unicorn'
 group :test do
   # for travis-ci
   gem 'rake'
