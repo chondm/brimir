@@ -25,4 +25,4 @@ production:
   host: localhost
   pool: 5
   username: postgres
-  password: 'newpassword'
+  password: newpassword
