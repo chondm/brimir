@@ -1,5 +1,5 @@
 # Set your full path to application.
-app_dir = "/home/deployer/brimir"
+app_dir = "/home/deployer/brimir/current"
 shared_dir = "/home/deployer/brimir/shared"
 puts "====================", app_dir
 puts "====================", shared_dir
